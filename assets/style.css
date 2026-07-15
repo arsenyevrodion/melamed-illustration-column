@@ -32,7 +32,7 @@ img{max-width:100%}
 /* ——— hero ——— */
 .hero{padding:clamp(64px,15vh,190px) 0 clamp(48px,10vh,120px)}
 .hero .eyebrow{margin-bottom:clamp(24px,4vw,44px)}
-.hero h1{font-weight:400;letter-spacing:-.035em;line-height:.78;font-size:clamp(62px,10.6vw,165px)}
+.hero h1{font-weight:400;letter-spacing:-.035em;line-height:.78;font-size:clamp(62px,10.6vw,165px);text-transform:lowercase}
 .hero .cols{margin-top:clamp(28px,4vw,52px);border-top:4px solid var(--ink);padding-top:clamp(4px,3vw,20px);display:grid;grid-template-columns:minmax(0,46ch) 1fr;gap:clamp(40px,6vw,90px);align-items:start}
 .hero .sub{max-width:46ch;margin:0;font-size:clamp(17px,1.7vw,22px);
   line-height:1.24;color:var(--ink);letter-spacing:-.01em}
@@ -73,7 +73,6 @@ img{max-width:100%}
 .crumbs .back:hover .back-a{background:var(--accent)}
 .art .crumbs b{color:var(--accent);font-weight:500}
 .art h1{font-weight:400;letter-spacing:-.035em;line-height:.78;font-size:clamp(62px,10.6vw,165px);max-width:16ch;text-transform:lowercase}
-.art h1::first-letter{text-transform:uppercase}
 .art-head{display:grid;grid-template-columns:1fr auto;gap:clamp(24px,5vw,80px);align-items:start}
 .art-head-t{min-width:0}
 .issue{display:flex;align-items:center;gap:.6em;white-space:nowrap}
@@ -113,7 +112,7 @@ img{max-width:100%}
 
 /* ——— prose (ideas / names) ——— */
 .prose{padding:clamp(40px,8vh,110px) 0 clamp(60px,12vh,140px);max-width:70ch}
-.prose h1{font-weight:400;letter-spacing:-.035em;line-height:.78;font-size:clamp(62px,10.6vw,165px);margin-bottom:.4em}
+.prose h1{font-weight:400;letter-spacing:-.035em;line-height:.78;font-size:clamp(62px,10.6vw,165px);margin-bottom:.4em;text-transform:lowercase}
 .prose h2{font-weight:500;letter-spacing:-.025em;text-transform:lowercase;font-size:clamp(28px,3.6vw,48px);line-height:1;margin:1.8em 0 .5em;padding-top:.8em;border-top:1px solid var(--line)}
 .prose p{font-size:clamp(17px,1.7vw,22px);line-height:1.24;margin:0 0 1.15em;color:var(--ink);letter-spacing:-.01em;max-width:62ch}
 .prose strong{font-weight:600;color:var(--ink)}
